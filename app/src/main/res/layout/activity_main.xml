@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocationSearchActivity"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:background="@drawable/background_autocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <AutoCompleteTextView
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/close_search"
+            android:padding="15dp"
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_an_address_here"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textColorHint="@color/grey"
+            android:singleLine="true"
+            android:ems="10">
+            <requestFocus />
+        </AutoCompleteTextView>
+
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/close_search"
+            android:visibility="invisible"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="0dp"
+            android:layout_alignParentRight="true"
+            android:padding="15dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/close_ic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

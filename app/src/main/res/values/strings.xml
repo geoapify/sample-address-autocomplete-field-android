@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Address Autocomplete</string>
+    <string name="enter_an_address_here">Enter an address here</string>
+</resources>
