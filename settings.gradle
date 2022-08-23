@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "GooglePlaceAutocomplete"
+rootProject.name = "GeoapifyPlaceAutocomplete"
 include ':app'
